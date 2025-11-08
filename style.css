@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header,
+.hero,
+footer {
+    background-color: #1F2937; /* Dark gray background */
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8; /* Off-white color */
+}
+
+.head-link-text,
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB; /* Light gray color */
+}
+
+.logo-text {
+    font-size: 24px; 
+    color: #F9FAF8; /* Off-white color */
+}
+
+button {
+    background-color: #3882F6; /* Blue button */
+    color: white;
+}
+
+.facts-text {
+    font-size: 36px;
+    color: #1F2937; /* Dark gray color */
+    font-weight: 900;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.body-two {
+    background-color: #E5E7EB;
+    height: 400px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    display: flex;
+    width: 800px;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937; 
+    font-weight: 300;
+    font-style: italic;
+    margin: 0 auto;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1F2937;
+    text-align: right;
+
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 16px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    gap: 212px;
+}
+
+.hero-secondary-text {
+    width: 320px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 8px;
+}
+
+.text {
+    color: #1F2937;
+}
+
+.pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.body-one {
+    height: 400px;
+}
+
+img {
+    border-radius: 8px;
+}
+
+.pic {
+    max-width: 300px;
+}
+
+.body-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+
+.body-three-container {
+    height: 100px;
+    width: 900px;
+    background-color: #3882F6; /* Blue button */
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-to-action {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.body-three-button {
+    border: white solid;
+}
+
+footer {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
